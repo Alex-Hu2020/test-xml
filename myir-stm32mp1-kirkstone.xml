@@ -2,7 +2,7 @@
 <manifest>
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
-  <remote name="meta-myir" fetch="https://github.com"/>
+  <remote name="meta-myir" fetch="https://github.com/MYiR-Dev"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   
   <default remote="OpenSTLinux"/>
