@@ -2,10 +2,11 @@
 <manifest>
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
-  <remote name="meta-myir" fetch="https://github.com/MYiR-Dev"/>
+  <remote name="MYiR-DEV" fetch="https://github.com/MYiR-Dev"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
+  <remote fetch="git://github.com/MYiR-Dev" name="MYiR-DEV"/>
   
   <default remote="OpenSTLinux"/>
   
-  <project name="meta-myir-st" path="layers/meta-myir-st" remote="meta-myir" revision="4c3be07be042c24fb54e06d1b7f8aa4aebfa8369" upstream="develop-yf13x"/>
+  <project name="meta-myir-st" path="layers/meta-myir-st" remote="MYiR-DEV" revision="4c3be07be042c24fb54e06d1b7f8aa4aebfa8369" upstream="develop-yf13x"/>
 </manifest>
